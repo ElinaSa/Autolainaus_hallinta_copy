@@ -6,6 +6,7 @@ CREATE OR REPLACE VIEW public.ajopaivakirja
  AS
  SELECT lainaus.rekisterinumero,
     auto.merkki,
+    auto.malli,
     lainaus.hetu,
     lainaaja.sukunimi,
     lainaaja.etunimi,

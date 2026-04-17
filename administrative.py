@@ -332,7 +332,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         # Tyhjennetään vanhat tiedot käyttöliittymästä ennen uusien lukemista tietokannasta
         self.ui.diaryTableWidget.clearContents()
 
-        # Määritellään taulukkoelementin otsikot
+        # Määritellään taulukkoelementin otsikot     
         headerRow = ['Rekisteri', 'Merkki', 'Malli', 'Tarkoitus', 'HeTu', 'Sukunimi', 'Etunimi', 'Otettu', 'Palautettu']
         self.ui.diaryTableWidget.setHorizontalHeaderLabels(headerRow)
 
