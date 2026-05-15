@@ -280,6 +280,19 @@ class Ui_MainWindow(object):
 
         self.vehicleInputsVerticalLayout.addWidget(self.vehicleOwnerLineEdit)
 
+        self.departmentLineEdit = QLineEdit(self.layoutWidget_2)
+        self.departmentLineEdit.setObjectName(u"departmentLineEdit")
+        self.departmentLineEdit.setClearButtonEnabled(True)
+
+        self.vehicleInputsVerticalLayout.addWidget(self.departmentLineEdit)
+
+        self.departmentComboBox = QComboBox(self.layoutWidget_2)
+        self.departmentComboBox.setObjectName(u"departmentComboBox")
+        self.departmentComboBox.setFont(font2)
+        self.vehicleInputsVerticalLayout.addWidget(self.departmentComboBox)
+
+
+
         self.saveVehiclePushButton = QPushButton(self.vehicleTab)
         self.saveVehiclePushButton.setObjectName(u"saveVehiclePushButton")
         self.saveVehiclePushButton.setGeometry(QRect(300, 220, 101, 25))
